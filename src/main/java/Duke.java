@@ -25,9 +25,9 @@ public class Duke {
         }
         for (int i = 0; i < tasks.size(); i++) {
             if (i == tasks.size() - 1) {
-                res += i + ": " + tasks.get(i);
+                res += (i+1) + ": " + tasks.get(i);
             } else {
-                res += i + ": " + tasks.get(i) + "\n";
+                res += (i+1) + ": " + tasks.get(i) + "\n";
             }
         }
         return res;
